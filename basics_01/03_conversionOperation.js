@@ -23,5 +23,38 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 let someNumber = 33;
 
 let someString = String(someNumber);
-console.log(someNumber);
-console.log(typeof someNumber);
+// console.log(someNumber);
+// console.log(typeof someNumber);
+
+
+// Operations
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue); // -3
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2%2);
+// console.log(2**2);
+// console.log(2/3);
+
+let str1 ="hello"
+let str2 = "world"
+let str3 = str1 + str2;
+// console.log(str3);
+
+// console.log("1"+ 1);
+// console.log(1 + "1");
+// console.log("1" + 1 + 1);
+// console.log(1 + 1 + "1");
+
+
+let abc = 100;
+++abc;
+console.log(abc); // 101
+abc++;
+console.log(abc); // 102
+abc--;
+console.log(abc);
