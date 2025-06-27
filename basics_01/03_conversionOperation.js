@@ -57,4 +57,6 @@ console.log(abc); // 101
 abc++;
 console.log(abc); // 102
 abc--;
-console.log(abc);
+console.log(abc); // 101
+--abc;
+console.log(abc); // 100
