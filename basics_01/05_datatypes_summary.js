@@ -27,3 +27,28 @@ const numbers = [1,2,3,4,5]; // Array
 function MyFunction() {
     console.log("hello world");
 } // Function
+
+
+
+// Stack (premitive types) &
+
+let myName = "Shrishti"; 
+let MyAnotherName = myName; // Stack;
+MyAnotherName = "Shrishti Gohel";
+
+
+console.log(MyAnotherName); 
+console.log(myName); 
+
+//  Heap (non-premitive types)
+
+let userOne = {
+    name: "Sunny",
+    age: 25,
+}
+
+let usertwo = userOne; // Heap
+usertwo.name =  "SunnySoni";
+
+console.log(userOne.name);
+console.log(usertwo.name);
