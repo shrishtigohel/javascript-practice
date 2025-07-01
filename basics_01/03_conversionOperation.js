@@ -50,7 +50,6 @@ let str3 = str1 + str2;
 // console.log("1" + 1 + 1);
 // console.log(1 + 1 + "1");
 
-
 let abc = 100;
 ++abc;
 console.log(abc); // 101
