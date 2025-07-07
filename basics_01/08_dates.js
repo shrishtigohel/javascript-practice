@@ -15,6 +15,6 @@ console.log(Math.floor(timesStamp / 3600)); // Hours
 console.log(Math.floor(timesStamp / 3600 * 24)); //days
 console.log(Math.floor(timesStamp / 3600 * 24 * 30)); // Months
 console.log(Math.floor(timesStamp / 3600 * 24 * 365));  // Years
-console.log(timesStamp);
+
 
 
